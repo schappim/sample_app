@@ -9,11 +9,11 @@ gem 'sqlite3'
 
 
 
-group :development, do
+group :development do
   gem 'rspec-rails'
 end
 
-group :test, do
+group :test do
   gem 'rspec'
 end
 
